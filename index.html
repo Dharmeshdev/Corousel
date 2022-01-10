@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Corousel - JS</title>
+</head>
+
+<body>
+    <div class="corousel">
+        <div class="corousel-item corousel-item-visible">
+            <img src="images/1.jpg" alt="">
+            <h1 class="inside">This is the first slide</h1>
+        </div>
+        
+        <div class="corousel-item">
+            <img src="images/2.jpg" alt="">
+            <h1 class="inside">This is the second slide</h1>
+            </div>
+        
+        <div class="corousel-item">
+            <img src="images/3.jpg" alt="">
+            <h1 class="inside">This is the third slide</h1>
+        </div>
+
+        <div class="corousel-item">
+            <img src="images/4.jpg" alt="">
+            <h1 class="inside">This is the fourth slide</h1>
+        </div>
+
+        <div class="corousel-item">
+            <img src="images/5.jpg" alt="">
+            <h1 class="inside">This is the fifth slide</h1>
+        </div>
+    
+
+        <div class="buttons">
+            <button id="prev" class="btn"> < </button>
+            <button id="next" class="btn"> > </button>
+        </div>
+        <h2 id="which-slide"></h2>
+    </div>    
+
+    <p><a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow" target="_blank">Get help!</a></p>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Hints
+1) Base HTML Structure
+2) Styling the fundamental of corousel
+3) Using translateY to get perfect align buttons
+4) Grabbing all corousels items and attaching button event listeners
+5) Moving to the next slide
+6) Looking at the for of loop (e.g.)
+7) Hiding non active slides
+8) Moving to previous slides
+9) Smooth transition using CSS keyframes
+-->
